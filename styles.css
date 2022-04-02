@@ -1,0 +1,187 @@
+/*Styles for Landing Page*/
+
+
+/*Classes used so far that need styling*/
+
+.landing_page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+    border: blue 4px solid;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+/*this the top part-  part #1*/
+.mpart1{
+    background: #1f2937;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: green 10px solid;
+}
+
+.header{
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.logo{
+    font-weight: 900;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.hrlinks{
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+
+.part1{
+    border: 2px solid;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.hlcontent{
+    border: red 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hltext1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f8fff8;
+}
+
+.hltext2{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+button{
+    background-color: #3882f6;
+    font-family: roboto, sans-serif;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 8px;
+
+    
+}
+
+.hrcontent{
+    border: red 2px solid;
+    width: 900px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+
+}
+
+/*this the top part-  part #2*/
+.mpart2{
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border: red 2px solid;
+    height: 300px;
+    padding: 10px;
+}
+
+
+/*this the top part-  part #3*/
+.mpart3{
+    background: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    border: red 2px solid;
+    font-size: 36px;
+    font-style: italic;
+    height: 300px;
+    
+    padding: 10px;
+    flex-wrap: wrap;
+    
+
+}
+
+/*this the top part-  part #4*/
+.mpart4{
+    border: red 2px solid;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.mpart42{
+    background-color: #3882f6;
+    color: white;
+    border: red 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+    padding: 30px 70px;    
+}
+
+.m4container{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.signup4{
+    border: white 2px solid;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+}
+
+.m4text{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/*this the footer*/
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1f2937;
+    width:max-content;
+}
