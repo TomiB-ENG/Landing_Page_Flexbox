@@ -1,37 +1,67 @@
 /*Styles for Landing Page*/
 
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 36, 36);
+   
 
+}
 /*Classes used so far that need styling*/
 
 .landing_page{
-    height: 100vh;
+    /*height: 100vh;*/
     display: flex;
     flex-direction: column;
     font-family: roboto, sans-serif;
-    border: blue 4px solid;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
+    /* border: blue 4px solid; */
+    /*justify-content: space-between;
+    align-items: center;*/
+    background: #1f2937;
+    /* max-width: fit-content; */
+    /* text-align: center; */
+    /* align-items: center;
+    justify-content: center; */
+    
+    
 }
 
-/*this the top part-  part #1*/
-.mpart1{
+/*this the top part-  part #1 banner for color*/
+.wide1{
+    display: flex;
+    max-width: fit-content;
+    max-height: fit-content;
     background: #1f2937;
-    height: 500px;
+    /* border: yellow 10px solid;  */
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/*this the top part-  part #1 content*/
+.mpart1{
+    
+    height: 400px; /* this is to space out the banners*/
     color: white;
     display: flex;
     flex-direction: column;
-    border: green 10px solid;
+    justify-content: space-between;
+    /* border: green 10px solid; */
+    max-width: fit-content;
+    margin-left: 50px;
+    margin-right: 50px;
+    padd
 }
 
 .header{
-    border: 2px solid;
+    /* border: 2px solid; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px;
     padding: 10px;
-    margin-bottom: 50px;
+    padding-top: 2px;
+    margin-bottom: 40px;
 }
 .logo{
     font-weight: 900;
@@ -41,7 +71,7 @@
 .hrlinks{
 
 }
-ul{
+/*ul{
     display: flex;
     list-style: none;
     gap: 16px;
@@ -52,27 +82,44 @@ a{
     list-style-type: none;
     color: white;
 }
+*/
+ul, a{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
 
 
 .part1{
-    border: 2px solid;
+    /* border: orange 5px solid; */
     display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
-    margin-bottom: 20px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    gap: 30px;
+    
+    
 }
 
 .hlcontent{
-    border: red 2px solid;
+    /* border: red 2px solid; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-start;
+    text-align: left; 
+   
+    width: 400px;
+    height: 200px;
 }
 
 .hltext1{
-    font-size: 48px;
-    font-weight:bolder;
+    font-size: 36px;
+    font-weight:700;
     color: #f8fff8;
 }
 
@@ -87,20 +134,26 @@ button{
     background-color: #3882f6;
     font-family: roboto, sans-serif;
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 800;
     border-radius: 8px;
+    width: 100px;
+    height: 20%;
 
     
 }
 
 .hrcontent{
-    border: red 2px solid;
-    width: 900px;
+    /* border: red 2px solid; */
+    width: 400px;
+    height: 200px;
     background-color: darkgray;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
+     align-items: center; 
+}
+.h1text3{
+    font-size: large;
 }
 
 
@@ -109,52 +162,125 @@ button{
 }
 
 /*this the top part-  part #2*/
+.wide2{
+    display: flex;
+    background-color: white;
+    /* border: red 4px solid; */
+    justify-content: center;
+    
+    
+}
+
 .mpart2{
     background: white;
     color: black;
     display: flex;
     flex-direction: column;
-    border: red 2px solid;
-    height: 300px;
+    /* border: red 2px solid; */
+    height: 400px;
     padding: 10px;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+.m2container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* border: red 5px solid; */
+
+}
+
+.m2title{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 35px;
+}
+
+
+.m2info{
+    display: flex;
+    flex-direction: column;
+    /* border: red 2px solid; */
+    max-width: 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+.img2{
+width: 150px;
+height: 150px;
+border: rgb(123, 123, 231) 4px solid;
+border-radius: 8px;
+}
+
+.m2text{
+    text-align: center;
 }
 
 
 /*this the top part-  part #3*/
+
+.wide3{}
+
 .mpart3{
     background: #e5e7eb;
     color: #1f2937;
     display: flex;
-    flex-direction: column;
-    border: red 2px solid;
-    font-size: 36px;
-    font-style: italic;
-    height: 300px;
-    
+    justify-content: center;
+    align-items: center; 
+    /* border: red 6px solid; */
+    height: 400px;
     padding: 10px;
-    flex-wrap: wrap;
-    
-
 }
 
+.m3container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    /* border: purple 3px solid; */
+    flex-wrap: wrap;
+    font-size: 33px;
+    font-style: italic;
+    max-width: 780px;
+    
+}
+
+.m3text1{
+    text-align:right;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 24px;
+    
+}
+
+
 /*this the top part-  part #4*/
+
+
 .mpart4{
-    border: red 2px solid;
-    height: 300px;
+    /* border: red 2px solid; */
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;    
+    background-color: white;
 }
 
 .mpart42{
     background-color: #3882f6;
     color: white;
-    border: red 2px solid;
+    /* border: red 2px solid; */
+    border-radius: 8px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 100px;
-    padding: 30px 70px;    
+    justify-content: space-around;
+    gap: 150px;
+    padding: 50px 100px;    
 }
 
 .m4container{
@@ -166,13 +292,18 @@ button{
 .signup4{
     border: white 2px solid;
     border-radius: 8px;
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 35px;
+    /* background-color: #3882f6; */
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    
 }
 
 .m4text{
-    font-weight: bolder;
-    font-size: larger;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 /*this the footer*/
@@ -182,6 +313,6 @@ button{
     align-items: center;
     justify-content: center;
     color: white;
-    background-color: #1f2937;
-    width:max-content;
+    height: 100px;
 }
+
